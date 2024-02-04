@@ -5,7 +5,7 @@ import tw from "twrnc";
 import { useDispatch, useSelector } from "react-redux";
 import { selectOrigin, selectDestination, setTravelTimeInformation } from "../slices/navSlice";
 import MapViewDirections from "react-native-maps-directions";
-import { DISTANCE_MATRIX_API, GOOGLE_MAP_API } from "@env";
+import { GOOGLE_MAPS_API_KEY } from "@env";
 const Map = () => {
   const origin = useSelector(selectOrigin);
   const destination = useSelector(selectDestination);
