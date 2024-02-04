@@ -36,7 +36,7 @@ const HomeScreen = ({ navigation }) => {
               },
             }}
             query={{
-              key: GOOGLE_PLACES_API,
+              key: GOOGLE_MAPS_API_KEY ,
               language: "en",
             }}
             nearbyPlacesAPI="GooglePlacesSearch"
