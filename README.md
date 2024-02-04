@@ -10,6 +10,7 @@ This is a React Native(Expo) app that serves as an Uber clone, allowing users to
 
 - Search for locations using Google Places Autocomplete API.
 - Display the direction between the selected origin and destination on a map.
+- Calculates estimated travel time
 - Utilize Redux for efficient state management.
 - Apply Tailwind CSS for easy and responsive styling.
 - Interact with the Google Maps API for map functionality.
