@@ -70,7 +70,7 @@ const Map = () => {
         <MapViewDirections
           origin={origin.description}
           destination={destination.description}
-          apikey={GOOGLE_MAP_API}
+          apikey={GOOGLE_MAPS_API_KEY }
           strokeWidth={3}
           strokeColor="black"
         />
