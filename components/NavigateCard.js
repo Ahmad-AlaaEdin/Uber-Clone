@@ -2,7 +2,7 @@ import React from "react";
 import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import tw from "twrnc";
-import { GOOGLE_PLACES_API } from "@env";
+import { GOOGLE_MAPS_API_KEY } from "@env";
 import { useDispatch } from "react-redux";
 import navSlice, { setOrigin, setDestination } from "../slices/navSlice";
 import NavFavourites from "./NavFavourites";
