@@ -3,7 +3,7 @@ import { Text, StyleSheet, View, Image } from "react-native";
 import Constants from "expo-constants";
 import tw from "twrnc";
 import NavOptions from "../components/NavOptions";
-import { GOOGLE_PLACES_API } from "@env";
+import { GOOGLE_MAPS_API_KEY } from "@env";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import { AutocompleteDropdown } from "react-native-autocomplete-dropdown";
 import { AutocompleteDropdownContextProvider } from "react-native-autocomplete-dropdown";
